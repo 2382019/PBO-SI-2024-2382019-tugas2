@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.lang.Math;
 
 public class tugas2 {
 
@@ -37,12 +36,11 @@ public class tugas2 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        System.out.println("Pilihan bangun datar:");
         System.out.println("1. Persegi");
         System.out.println("2. Persegi panjang");
         System.out.println("3. Lingkaran");
         System.out.print("Masukkan pilihan anda: ");
-
 
         int pilihan = scanner.nextInt();
 
